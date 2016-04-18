@@ -14,6 +14,7 @@
 		E46FFE541CC46D700055EFBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46FFE521CC46D700055EFBD /* LaunchScreen.storyboard */; };
 		E46FFE5F1CC46D700055EFBD /* PersonalExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46FFE5E1CC46D700055EFBD /* PersonalExpenseTrackerTests.swift */; };
 		E46FFE6A1CC46D700055EFBD /* PersonalExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46FFE691CC46D700055EFBD /* PersonalExpenseTrackerUITests.swift */; };
+		E46FFE781CC54B1E0055EFBD /* AssetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46FFE771CC54B1E0055EFBD /* AssetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E46FFE651CC46D700055EFBD /* PersonalExpenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalExpenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46FFE691CC46D700055EFBD /* PersonalExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		E46FFE6B1CC46D700055EFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46FFE771CC54B1E0055EFBD /* AssetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E46FFE491CC46D700055EFBD /* AppDelegate.swift */,
 				E46FFE4B1CC46D700055EFBD /* ViewController.swift */,
+				E46FFE771CC54B1E0055EFBD /* AssetTableViewCell.swift */,
 				E46FFE4D1CC46D700055EFBD /* Main.storyboard */,
 				E46FFE501CC46D700055EFBD /* Assets.xcassets */,
 				E46FFE521CC46D700055EFBD /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				E46FFE4C1CC46D700055EFBD /* ViewController.swift in Sources */,
 				E46FFE4A1CC46D700055EFBD /* AppDelegate.swift in Sources */,
+				E46FFE781CC54B1E0055EFBD /* AssetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
